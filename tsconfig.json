@@ -4,6 +4,6 @@
     "module": "commonjs",
     "target": "ES2021",
     "esModuleInterop": true,
-    "allowJs": true //permita arquivo JS
+    "allowJs": true
   }
 }
