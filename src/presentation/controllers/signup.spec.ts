@@ -2,7 +2,7 @@ import { SignUpController } from './signup'
 import { MissingParamError } from '../erros/missing-param-error'
 
 const makeSut = (): SignUpController => {
-  return makeSut()
+  return new SignUpController()
 }// factory
 
 describe('SignUp Controller', () => {
