@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1628040988283" clover="3.2.0">
-  <project timestamp="1628040988283" name="All files">
-    <metrics statements="24" coveredstatements="21" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2" elements="32" coveredelements="29" complexity="0" loc="24" ncloc="24" packages="3" files="3" classes="3"/>
-    <package name="controllers">
-      <metrics statements="18" coveredstatements="18" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
-      <file name="signup.ts" path="/home/samuel/Desktop/TDD/clean-architecture/src/presentation/controllers/signup.ts">
-        <metrics statements="18" coveredstatements="18" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+<coverage generated="1628042876660" clover="3.2.0">
+  <project timestamp="1628042876660" name="All files">
+    <metrics statements="26" coveredstatements="22" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2" elements="34" coveredelements="30" complexity="0" loc="26" ncloc="26" packages="2" files="3" classes="3"/>
+    <package name="controllers.signup">
+      <metrics statements="23" coveredstatements="19" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <file name="signup-protocols.ts" path="/home/samuel/Desktop/TDD/clean-architecture/src/presentation/controllers/signup/signup-protocols.ts">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="signup.ts" path="/home/samuel/Desktop/TDD/clean-architecture/src/presentation/controllers/signup/signup.ts">
+        <metrics statements="19" coveredstatements="19" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="11" count="9" type="stmt"/>
-        <line num="12" count="9" type="stmt"/>
-        <line num="16" count="9" type="stmt"/>
-        <line num="17" count="9" type="stmt"/>
-        <line num="19" count="9" type="stmt"/>
-        <line num="20" count="30" type="cond" truecount="2" falsecount="0"/>
-        <line num="21" count="4" type="stmt"/>
-        <line num="25" count="5" type="stmt"/>
-        <line num="27" count="5" type="cond" truecount="2" falsecount="0"/>
-        <line num="28" count="1" type="stmt"/>
-        <line num="30" count="4" type="stmt"/>
-        <line num="31" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="32" count="1" type="stmt"/>
-        <line num="35" count="2" type="stmt"/>
-        <line num="41" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="10" count="11" type="stmt"/>
+        <line num="11" count="11" type="stmt"/>
+        <line num="15" count="11" type="stmt"/>
+        <line num="16" count="11" type="stmt"/>
+        <line num="18" count="11" type="stmt"/>
+        <line num="19" count="38" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="24" count="7" type="stmt"/>
+        <line num="26" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
+        <line num="30" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="34" count="4" type="stmt"/>
+        <line num="40" count="3" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
       </file>
     </package>
     <package name="erros">
@@ -33,15 +41,6 @@
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="protocols">
-      <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.ts" path="/home/samuel/Desktop/TDD/clean-architecture/src/presentation/protocols/index.ts">
-        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
       </file>
     </package>
   </project>
