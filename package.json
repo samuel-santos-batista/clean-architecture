@@ -5,7 +5,9 @@
   "author": "samuel <samuelsantxxi@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "git-commit-msg-linter": "^3.2.6"
+    "@types/validator": "^13.6.3",
+    "git-commit-msg-linter": "^3.2.6",
+    "validator": "^13.6.0"
   },
   "devDependencies": {
     "@types/jest": "^26.0.24",
