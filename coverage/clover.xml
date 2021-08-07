@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1628305689944" clover="3.2.0">
-  <project timestamp="1628305689945" name="All files">
-    <metrics statements="44" coveredstatements="38" conditionals="6" coveredconditionals="6" methods="9" coveredmethods="9" elements="59" coveredelements="53" complexity="0" loc="44" ncloc="44" packages="5" files="9" classes="9"/>
+<coverage generated="1628365467715" clover="3.2.0">
+  <project timestamp="1628365467715" name="All files">
+    <metrics statements="48" coveredstatements="42" conditionals="6" coveredconditionals="6" methods="12" coveredmethods="12" elements="66" coveredelements="60" complexity="0" loc="48" ncloc="48" packages="6" files="10" classes="10"/>
+    <package name="data.usescases.add-account">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="db-add-acount.ts" path="/home/samuel/Área de Trabalho/PERSONAL/clean-architecture/src/data/usescases/add-account/db-add-acount.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+      </file>
+    </package>
     <package name="presentation.controllers.signup">
       <metrics statements="23" coveredstatements="19" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
       <file name="signup-protocols.ts" path="/home/samuel/Área de Trabalho/PERSONAL/clean-architecture/src/presentation/controllers/signup/signup-protocols.ts">
@@ -81,7 +91,7 @@
     </package>
     <package name="utils">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="email-validator.ts" path="/home/samuel/Área de Trabalho/PERSONAL/clean-architecture/src/utils/email-validator.ts">
+      <file name="email-validator-adapter.ts" path="/home/samuel/Área de Trabalho/PERSONAL/clean-architecture/src/utils/email-validator-adapter.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
