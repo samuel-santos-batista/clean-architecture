@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1628387060291" clover="3.2.0">
-  <project timestamp="1628387060292" name="All files">
+<coverage generated="1628387473076" clover="3.2.0">
+  <project timestamp="1628387473076" name="All files">
     <metrics statements="54" coveredstatements="44" conditionals="6" coveredconditionals="6" methods="12" coveredmethods="12" elements="72" coveredelements="62" complexity="0" loc="54" ncloc="54" packages="6" files="11" classes="11"/>
     <package name="data.usescases.add-account">
       <metrics statements="10" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
@@ -14,10 +14,10 @@
       <file name="db-add-acount.ts" path="/home/samuel/Área de Trabalho/PERSONAL/clean-architecture/src/data/usescases/add-account/db-add-acount.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="4" count="1" type="stmt"/>
-        <line num="9" count="3" type="stmt"/>
-        <line num="10" count="3" type="stmt"/>
-        <line num="14" count="3" type="stmt"/>
-        <line num="15" count="2" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
         <line num="16" count="2" type="stmt"/>
       </file>
     </package>
