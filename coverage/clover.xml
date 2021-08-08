@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1628390216481" clover="3.2.0">
-  <project timestamp="1628390216481" name="All files">
-    <metrics statements="68" coveredstatements="44" conditionals="6" coveredconditionals="6" methods="15" coveredmethods="11" elements="89" coveredelements="61" complexity="0" loc="68" ncloc="68" packages="7" files="13" classes="13"/>
+<coverage generated="1628390936923" clover="3.2.0">
+  <project timestamp="1628390936923" name="All files">
+    <metrics statements="59" coveredstatements="49" conditionals="6" coveredconditionals="6" methods="13" coveredmethods="13" elements="78" coveredelements="68" complexity="0" loc="59" ncloc="59" packages="7" files="12" classes="12"/>
     <package name="data.usescases.add-account">
       <metrics statements="10" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="db-add-account-protocols.ts" path="/home/samuel/Área de Trabalho/PERSONAL/clean-architecture/src/data/usescases/add-account/db-add-account-protocols.ts">
@@ -22,26 +22,14 @@
       </file>
     </package>
     <package name="infra.criptografy">
-      <metrics statements="14" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
-      <file name="bcrypt-adpter-spec.ts" path="/home/samuel/Área de Trabalho/PERSONAL/clean-architecture/src/infra/criptografy/bcrypt-adpter-spec.ts">
-        <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-      </file>
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="bcrypt-adpter.ts" path="/home/samuel/Área de Trabalho/PERSONAL/clean-architecture/src/infra/criptografy/bcrypt-adpter.ts">
-        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
       </file>
     </package>
     <package name="presentation.controllers.signup">
