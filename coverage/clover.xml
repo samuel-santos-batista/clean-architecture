@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1628392530765" clover="3.2.0">
-  <project timestamp="1628392530765" name="All files">
-    <metrics statements="59" coveredstatements="49" conditionals="6" coveredconditionals="6" methods="13" coveredmethods="13" elements="78" coveredelements="68" complexity="0" loc="59" ncloc="59" packages="7" files="12" classes="12"/>
+<coverage generated="1628563968856" clover="3.2.0">
+  <project timestamp="1628563968856" name="All files">
+    <metrics statements="64" coveredstatements="49" conditionals="6" coveredconditionals="6" methods="16" coveredmethods="13" elements="86" coveredelements="68" complexity="0" loc="64" ncloc="64" packages="8" files="13" classes="13"/>
     <package name="data.usescases.add-account">
       <metrics statements="10" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="db-add-account-protocols.ts" path="/home/samuel/Área de Trabalho/PERSONAL/clean-architecture/src/data/usescases/add-account/db-add-account-protocols.ts">
@@ -27,9 +27,20 @@
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
-        <line num="8" count="3" type="stmt"/>
-        <line num="12" count="3" type="stmt"/>
-        <line num="13" count="3" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="infra.db.mongodb.helpers">
+      <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="mongo-helper.ts" path="/home/samuel/Área de Trabalho/PERSONAL/clean-architecture/src/infra/db/mongodb/helpers/mongo-helper.ts">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
       </file>
     </package>
     <package name="presentation.controllers.signup">
