@@ -5,14 +5,21 @@ describe('Account Mongo Repository', () => {
   beforeAll(async ()=>{
     await MongoHelper.connect(process.env.MONGO_URL)
   })
+  
   afterAll(async ()=>{
     await MongoHelper.disconnect()
   })
+
+  beforeAll(async ()=>{
+    const accountCollection = MongoHelper.getColletion('accounts')
+    await accountCollection.deleteMany({})
+  })
+
   test('Should return an account on sucess', async ()=>{
     const sut = new AccountMongoRepository()
     const account = await sut.add({
       name: 'any_name',
-      email: 'any_mail@mail.com',
+      email: 'any_mai}l@mail.com',
       password: 'any_password'
     })
     expect(account).toBeTruthy()
