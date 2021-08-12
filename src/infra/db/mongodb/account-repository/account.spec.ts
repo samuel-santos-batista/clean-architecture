@@ -8,8 +8,6 @@ describe('Account Mongo Repository', () => {
   afterAll(async ()=>{
     await MongoHelper.disconnect()
   })
-
-
   beforeAll(async ()=>{
     const accountCollection = MongoHelper.getColletion('accounts')
     await accountCollection.deleteMany({})
