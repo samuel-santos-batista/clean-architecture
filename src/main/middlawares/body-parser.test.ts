@@ -3,7 +3,7 @@ import app from '../config/app'
 
 
 describe('Body Parser Middlawares', () => {
-  test('Should parse body as json', async () => {
+  test('Should parse body as json ', async () => {
     app.post('/test_body_parser', (request, response) =>{
       response.send(request.body)
     })
