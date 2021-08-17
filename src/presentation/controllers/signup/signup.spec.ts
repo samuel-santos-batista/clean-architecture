@@ -13,7 +13,7 @@ const makeEmailValidator = (): EmailValidator => {
 
 const makeAddAccount = (): AddAccount => {
   class EmailValidatorStub implements AddAccount {
-    add (account: AddAccountModel): Promise<AccountModel> {
+    async add (account: AddAccountModel): Promise<AccountModel> {
       const fakeAccount = {
         id: 'valid_id',
         name: 'valid_name',
@@ -21,7 +21,7 @@ const makeAddAccount = (): AddAccount => {
         password: 'valid_password'
       }
 
-      return new Promise(resolve => resolve(fakeAccount))
+      return await new Promise(resolve => resolve(fakeAccount))
     }
   }
   return new EmailValidatorStub()
@@ -151,7 +151,7 @@ describe('SignUp Controller', () => {
     }
     const httpResponse = await sut.handle(httpRequest)
     expect(httpResponse.statusCode).toBe(500)
-    expect(httpResponse.body).toEqual(new ServerError())
+    expect(httpResponse.body).toEqual(new ServerError(httpResponse.body))
   })
 
   test('Should return 400 if no password confirmation fails', async () => {
@@ -186,7 +186,7 @@ describe('SignUp Controller', () => {
     }
     const httpResponse = await sut.handle(httpRequest)
     expect(httpResponse.statusCode).toBe(500)
-    expect(httpResponse.body).toEqual(new ServerError())
+    expect(httpResponse.body).toEqual(new ServerError(httpResponse.body))
   })
 
   test('Should call AddAccount with correct values', async () => {
@@ -208,7 +208,7 @@ describe('SignUp Controller', () => {
       password: 'any_password'
     })
   })
-  
+
   test('Should return 200 if valid data is provided', async () => {
     const { sut } = makeSut() // System under test
     const httpRequest = {
